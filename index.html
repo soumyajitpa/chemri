@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <style>
+    body{
+      
+     background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-concert-musical-instrument-performance-music-festival-singing-playing-background-picture-image_1436312.jpg");
+     
+
+    }
+    #container{
+      position: absolute;
+      top: 14%;
+      left: 52%;
+      height: 86vh;
+      width: 47vw;
+background-image: url("https://c0.wallpaperflare.com/preview/27/313/180/man-singing-on-stage.jpg");
+      border: 1px solid rgb(120, 48, 168) ;
+      border-radius: 15%;
+      display: flex;
+    }
+    #box1{
+      position: absolute;
+      top: 6%;
+      left: 11%;
+      height: 30vh;
+      width: 10vw;
+      border: 1px
+      solid rgb(209, 76, 149);
+      border-radius: 6%;
+    background-image: url("https://www.shutterstock.com/image-illustration/music-notes-blurry-lights-on-260nw-250214182.jpg");
+      transition: height, width;
+      transition-delay: .25s;
+      transition-duration: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #box1:hover{
+      height: 32vh;
+      width: 13vw;
+  
+    }
+    #box2{  position: absolute;
+      top: 6%;
+      left: 38%;
+      height: 30vh;
+      width: 10vw;
+      border: 2px
+      solid black;
+      border-radius: 6%;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZvVHuf-Xjxp_B2oZJ3kW6zD0lWD8AfkkKYS9iSzPWdyChR42yQjgwFu975zgVCA2imk&usqp=CAU");
+      transition: height, width;
+      transition-delay: .25s;
+      transition-duration: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    #box2:hover{ height: 32vh;
+      width: 13vw;
+     
+    }
+  
+    
+    #box3{  position: absolute;
+      top: 6%;
+      right: 12%;
+      height: 30vh;
+      width: 10vw;
+      border: 2px
+      solid black;
+      border-radius: 6%;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7xyqrSS7aCZC4JwEbDm6SUL3FI0bLLahBJw&usqp=CAU");
+      transition: height, width;
+      transition-delay: .25s;
+      transition-duration: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    } #box3:hover{  height: 32vh;
+      width: 13vw;
+    
+
+    }
+    #box4{position: absolute;
+      top: 55%;
+      left: 26%;
+      height: 30vh;
+      width: 10vw;
+      border: 1px
+      solid rgb(80, 47, 99);
+      border-radius: 6%;
+      background-image: url("https://www.shutterstock.com/shutterstock/videos/1075557779/thumb/1.jpg?ip=x480");
+      transition: height, width;
+      transition-delay: .25s;
+      transition-duration: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    #box4:hover{ height: 32vh;
+      width: 13vw;
+      
+
+    }
+    #box5{position: absolute;
+      top: 55%;
+      left: 54%;
+      height: 30vh;
+      width: 10vw;
+      border: 2px
+      solid black;
+      border-radius: 6%;
+      background-image: url("https://images.pond5.com/annual-conference-award-party-song-footage-142672917_iconm.jpeg");
+      transition-delay: .25s;
+      transition-duration: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+    #box5:hover{height: 32vh;
+      width: 13vw;
+      
+
+    }
+    #soumya
+   {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 10vh;
+    width: 100vw;
+   background-image: url("https://as1.ftcdn.net/v2/jpg/03/67/51/72/1000_F_367517272_X9109gCkeHP7laRQFSKJlBbt26ETnVUB.jpg");
+    z-index: 1;
+    display: flex;
+   } 
+   #me1{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+   }
+   #me2{position: absolute;
+    top: 30%;
+    right: 20%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+
+   }
+   #me3{position: absolute;
+    top: 30%;
+    right: 11%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+   }
+   #me4{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:none;
+   }
+   #me5{
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: font-size;
+    transition-delay: .25s;
+    transition-duration: 2s;
+   }
+   #me5:hover{
+    font-size: 27px;
+   }
+   #swapna{
+    position: absolute;
+    top: 14%;
+    left: 4%;
+  
+
+   }
+   #sura{
+    position: absolute;
+   bottom: 1%;
+   left:1%;
+   width: 2vw;
+  }
+  #sumit{
+    position: absolute;
+   bottom: 1%;
+   left:1%;
+   width: 2vw;
+  }
+  #sumi{  position: absolute;
+   bottom: 1%;
+   left:1%;
+   width: 2vw;
+
+  }
+  #tumi{ position: absolute;
+   bottom: 1%;
+   left:1%;
+   width: 2vw;
+
+  }
+  #tui{position: absolute;
+   bottom: 1%;
+   left:1%;
+   width: 2vw;
+
+  }
+  #meso{
+    position: fixed;
+    top: 19%;
+    left: 1%;
+    height: 5vh;
+    width: 20vw;
+    border: 1px solid rgb(201, 87, 163);
+   border-radius: 40px;
+
+  }
+  #mom{
+    position: fixed;
+    top: 20%;
+    left: 22%;
+    height: 4vh;
+    width: 4vw;
+    border: 1px solid rgb(201, 87, 163);
+    display: flex;
+
+
+
+  }
+#sam{
+  font-size: 20px;
+  color: rgb(235, 113, 194);
+}
+#jit{ position: absolute;
+  top: 17%;
+  left: 0%;
+  height: 80vh;
+  width: 30vw;
+  border:1px solid blue;
+  display:  flex;
+
+
+} 
+#sad{
+  position: absolute;
+  bottom: 0%;
+  height: 30vh;
+width: 29.9vw;
+  border: 1px solid black;
+  background-color: black;
+  display: flex;
+}
+#sala{ color: rgb(201, 54, 127);
+
+}
+#ramu{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  font-size: 30px;
+  color: rgb(129, 64, 189);
+  transition: font-size;
+  transition-duration: 3s;
+  transition-delay: .25s;
+
+}
+#ramu:hover{font-size: 40px;
+  color: white;
+
+}
+#samu{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 30px;
+  color: rgb(129, 64, 189);
+  transition: font-size;
+  transition-duration: 3s;
+  transition-delay: .25s;
+
+}
+#samu:hover{
+  font-size: 40px;
+  color: white;
+}
+#jodu{  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 30px;
+  color: rgb(129, 64, 189);
+  transition: font-size;
+  transition-duration: 3s;
+  transition-delay: .25s;
+
+}
+#jodu:hover{font-size: 40px;
+  color: white;
+
+}
+
+
+  
+      </style>
+    
+</head>
+<body>
+   <div id="container">
+<div id="box1"><img src="c:\Users\User\Desktop\download (6).jpg" height="150px" width="90px">
+<audio controls id="sumi">
+<source src="c:\Users\User\Downloads\Mahalaya-(Original)(PagalWorldl).mp3" type="audio/mpeg">
+</audio>
+</div>
+<div id="box2"><img src="c:\Users\User\Desktop\download (1).jpg" height="150px" width="90px">
+<audio controls id="tumi">
+<source src="c:\Users\User\Downloads\Deva Deva(PagalWorld.com.se).mp3" type="audio/mpeg">
+</audio></div>
+<div id="box3"><img src="c:\Users\User\Desktop\Ram Siya Ram_Ajay-Atul_Sachet-Parampara_Manoj_Muntashir_.jpg" height="150px" width="90px">
+<audio controls id="tui">
+<source src="c:\Users\User\Downloads\Huppa Huiya Adipurush 128 Kbps.mp3" type="audio/mpeg">
+</audio></div>
+<div id="box4"><img src="c:\Users\User\Desktop\images (1).jpg" height="150px" width="90px"> 
+<audio controls id="sumit">
+<source src="c:\Users\User\Downloads\Ghungroo War 128 Kbps.mp3" type="audio/mpeg">
+</audio></div>
+<div id="box5"><img src="c:\Users\User\Desktop\download (3).jpg" height="150px" width="90px"><audio controls id="sura">
+<source src="c:\Users\User\Downloads\128-Aal Izz Well - 3 Idiots 128 Kbps.mp3" type="audio/mpeg">
+</audio> </div>
+   </div>
+   <nav id="soumya">
+    <a href="#" id="me1"><i class="fa-solid fa-house" style="color: white; height: 15px;"></i>HOME</a>
+    <a href="#" id="me2"><i class="fa-solid fa-magnifying-glass" style="color: white;height: 15px;"></i>SEARCH</a>
+    <a href="#" id="me3"><i class="fa-solid fa-right-to-bracket" style="color: white;height: 15px;"></i>SIGNUP</a>
+    <a href="#" id="me4"><i class="fa-solid fa-sailboat" style="color: white;height: 15px;"></i>LOGIN</a>
+    <h1 id="me5"><i class="fa-brands fa-spotify" style="color: white;height: 15px;"></i> MY MUSIC</h1>
+   </nav>
+   <div id="jit">
+
+   <button id="mom"><input type="text" id="meso" name="type here" placeholder="search here....."/><i class="fa-brands fa-searchengin" id="sam"></i></button>
+  
+<div id="sad"> 
+<P id="sala"> <i class="fa-solid fa-pen-nib fa-flip"></i> My music is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. Basic functions such as playing music are totally free, but you can also choose to upgrade to Spotify Premium.</P>
+<a href="https://www.instagram.com/spotify/" id="ramu"><i class="fa-brands fa-instagram fa-shake"></i></a>
+<a href="https://twitter.com/Spotify?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" id="samu"><i class="fa-brands fa-x-twitter fa-spin"></i></a>
+<a href="https://www.facebook.com/Spotify/" id="jodu"  <i class="fa-brands fa-facebook fa-bounce"></i></a>
+</div>
+   
+   </div>
+   <script>
+    
+   </script>
+</body>
+</html>
